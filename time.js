@@ -45,27 +45,7 @@ $(document).ready(function () {
             }
         }
     }
-
-    // 現在時刻の範囲にある行をハイライト(/tms)
-    function displayHightLightTms() {
-        var name_array = [1000, 1020, 1040, 1100, 1120, 1140, 1200, 1220, 1240, 1300, 1320, 1340, 1400, 1420, 1440, 1500, 1520, 1540, 1600, 1620, 1640, 1700, 1720, 1740, 1800, 1820, 1840, 1900, 1920, 1940];
-        var className;
-        for (var i = 0; i < name_array.length; i++) {
-            if (curentTime - name_array[i] >= -1 && curentTime - name_array[i] < 19) {
-                $('#schedule_grid_tms_time').removeClass(oldClassNameTms);
-                className = 'time_' + name_array[i];
-
-                $('#schedule_grid_tms_time').addClass(className);
-                oldClassNameTms = className;
-            } else if (name_array[i] - curentTime == 41) {
-                $('#schedule_grid_tms_time').removeClass(oldClassNameTms);
-                className = 'time_' + name_array[i];
-
-                $('#schedule_grid_tms_time').addClass(className);
-                oldClassNameTms = className;
-            }
-        }
-    }
+    
 
     function setClassGridTime(curentTime, time) {
         var className;
