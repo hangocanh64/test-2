@@ -1,0 +1,170 @@
+.reserve-card {
+    width:380px !important;
+    position:absolute !important;
+}
+.schedule_card {
+    background-color: transparent;
+    cursor: default;
+}
+.reserve-card-frame {
+    cursor: pointer;
+}
+.reserve-card-bgcolor {
+    background-color: transparent !important;
+}
+/* .dummy-card-bgcolor {
+    background-color: #000000 !important;
+} */
+.status_input {
+    height: 100%;
+}
+.card_status_input {
+    width: 120px;
+}
+.schedule_grid .schedule_header {
+    top: 50px;
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px !important;
+    grid-template-rows: 50px 1fr;
+    width: 1520px !important;
+    margin-left: 80px;
+    background-color: #333;
+    z-index: 5;
+}
+.rest-outer-frame {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.rest-outer-frame .rest-card-frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+    height: calc(100% - 20px);
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #808080;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.13), 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.13), 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-transition: -webkit-box-shadow ease-in-out 0.1s, -webkit-transform ease-in-out 0.1s;
+    transition: -webkit-box-shadow ease-in-out 0.1s, -webkit-transform ease-in-out 0.1s;
+    transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s;
+    transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s, -webkit-box-shadow ease-in-out 0.1s, -webkit-transform ease-in-out 0.1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rest_schedule_card_body {
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rest_schedule_card_max_height {
+    height: 100%;
+}
+.rest_schedule_card_medium_height {
+    height: 55%;
+}
+.rest_schedule_card_min_height {
+    height: 30%;
+    min-height: 40px;
+}
+.rest_card_textarea {
+    width:100%;
+    height:100%;
+    border:none;
+    font-size: 13px;
+    resize: none;
+    cursor: pointer;
+}
+.btn_danger {
+    background-color: #c82333;
+    color: #fff;
+    border-color: #bd2130;
+}
+.d-none {
+    display: none !important;
+}
+
+/* Add css BC_RSV-125 */
+.card-position-move{
+    border-bottom: 3px solid rgb(33 199 249) !important
+}
+
+.schedule_memo .schedule_memo_text,
+.schedule_memo > * {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media(max-width:425px) {
+    .modal-footer_inner {
+        gap: 10px
+    }
+}
+.ticket_number {
+    margin-left: 5px;
+}
+/* Add css BC_RSV-213 */
+.schedule_grid.time_1900 .schedule_time .time_1900,
+.schedule_grid.time_1930 .schedule_time .time_1930 {
+    background: #31388f;
+}
+.schedule_grid.time_1900{
+    background-position: 0 1670px;
+}
+.schedule_grid.time_1930{
+    background-position: 0 1760px;
+}
+.schedule_grid.time_1000 {
+    background-position: 0 50px;
+}
+.schedule_time .time {
+    text-align: center;
+    color: #fff;
+    background-color: unset !important;
+}
+.schedule_time .item_time {
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #808080;
+    border: 1px solid #D7DCE0;
+    border-right-color: #808080;
+    border-top: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+.schedule_grid.time_1000 .img_current_time_1000,
+.schedule_grid.time_1030 .img_current_time_1030,
+.schedule_grid.time_1100 .img_current_time_1100,
+.schedule_grid.time_1130 .img_current_time_1130,
+.schedule_grid.time_1200 .img_current_time_1200,
+.schedule_grid.time_1230 .img_current_time_1230,
+.schedule_grid.time_1300 .img_current_time_1300,
+.schedule_grid.time_1330 .img_current_time_1330,
+.schedule_grid.time_1400 .img_current_time_1400,
+.schedule_grid.time_1430 .img_current_time_1430,
+.schedule_grid.time_1500 .img_current_time_1500,
+.schedule_grid.time_1530 .img_current_time_1530,
+.schedule_grid.time_1600 .img_current_time_1600,
+.schedule_grid.time_1630 .img_current_time_1630,
+.schedule_grid.time_1700 .img_current_time_1700,
+.schedule_grid.time_1730 .img_current_time_1730,
+.schedule_grid.time_1800 .img_current_time_1800,
+.schedule_grid.time_1830 .img_current_time_1830,
+.schedule_grid.time_1900 .img_current_time_1900,
+.schedule_grid.time_1930 .img_current_time_1930 {
+    background: #fbfbfb url("images/schedule_body_bg.gif");
+}
