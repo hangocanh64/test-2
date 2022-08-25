@@ -15,13 +15,13 @@ const STATUS_CONSULTATION = 26;
 const STATUS_DUMMY_CARD = 27;
 
 //初診／再診
-const REGULARLY_FIRST = 8;
-const REGULARLY_RE = 9;
+const REGULARLY_FIRST = 88;
+const REGULARLY_RE = 99;
 
 //流入元
-const STATUS_OTHER = 7;
-const STATUS_COUBIC = 4;
-const STATUS_RECEPTION = 5;
+const STATUS_OTHER = 77;
+const STATUS_COUBIC = 44;
+const STATUS_RECEPTION = 55;
 
 // 権限
 const ROLE_SYSTEM_ADMINISTRATOR = 35;
