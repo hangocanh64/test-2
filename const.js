@@ -1,6 +1,6 @@
 // 枠 画面上の列の数（何列目か） ※ステータスコードではない
-const FLAME_QEEG_ONLINE = 1212; // オンライン相談　11列目
-const FLAME_QEEG_PAID_FREE = 1111; // 無料・有料QEEG　12列目
+const FLAME_QEEG_ONLINE = 12; // オンライン相談　11列目
+const FLAME_QEEG_PAID_FREE = 11; // 無料・有料QEEG　12列目
 const FLAME_QEEG_FIRST_VISIT = [1,2,3,4,5,6,7,8,9,10]; // 初診　1-10列目
 
 // table:status_codes
@@ -15,13 +15,13 @@ const STATUS_CONSULTATION = 262;
 const STATUS_DUMMY_CARD = 272;
 
 //初診／再診
-const REGULARLY_FIRST = 88;
-const REGULARLY_RE = 99;
+const REGULARLY_FIRST = 8;
+const REGULARLY_RE = 9;
 
 //流入元
-const STATUS_OTHER = 77;
-const STATUS_COUBIC = 44;
-const STATUS_RECEPTION = 55;
+const STATUS_OTHER = 7;
+const STATUS_COUBIC = 4;
+const STATUS_RECEPTION = 5;
 
 // 権限
 const ROLE_SYSTEM_ADMINISTRATOR = 35;
