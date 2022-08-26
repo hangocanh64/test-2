@@ -1,17 +1,3 @@
-.reserve-card {
-    width:380px !important;
-    position:absolute !important;
-}
-.schedule_card {
-    background-color: transparent;
-    cursor: default;
-}
-.reserve-card-frame {
-    cursor: pointer;
-}
-.reserve-card-bgcolor {
-    background-color: transparent !important;
-}
 /* .dummy-card-bgcolor {
     background-color: #000000 !important;
 } */

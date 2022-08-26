@@ -21,9 +21,9 @@ $(document).ready(function () {
     var currentDate = new Date().toISOString().slice(0, 10);
 
     function getCurrentTimestamp() {
-        var curDate = new Date();
-        var hours = curDate.getHours();
-        var minutes = curDate.getMinutes();
+        var curDate= new Date();
+        var hours= curDate.getHours();
+        var minutes= curDate.getMinutes();
         if (minutes < 10) {
             minutes = '0' + minutes;
         }
